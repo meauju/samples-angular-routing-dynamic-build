@@ -1,3 +1,9 @@
+![showcase](./showcase.png)
+
+This sample in Angular permits to find a way to configure the Web routing at build process.
+It will exclude codes from unused Web pages by replacing Angular router module files.
+
+
 # Routing
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.3.
