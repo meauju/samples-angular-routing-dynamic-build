@@ -1,0 +1,15 @@
+.navigation-panel {
+  margin: 5px;
+  border: solid 1px grey;
+}
+
+.main-router-panel {
+  margin: 5px;
+  border: solid 1px blue;
+}
+
+
+.wrong-router-panel{
+  margin: 5px;
+  background-color: red;
+}
