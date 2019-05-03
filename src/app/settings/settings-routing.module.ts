@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import {BatteryComponent} from './battery.component';
+import {SettingsComponent} from "./components/settings/settings.component";
 
 
 
 const routes: Routes = [
     {
         path: '',
-        component: BatteryComponent
+        component: SettingsComponent
     }
 ];
 
@@ -15,4 +15,4 @@ const routes: Routes = [
     imports: [RouterModule.forChild(routes)],
     exports: [RouterModule]
 })
-export class BatteryRoutingModule { }
+export class SettingsRoutingModule { }

@@ -32,23 +32,63 @@
               "fileReplacements": [
                 {
                   "replace": "src/app/app-routing.module.ts",
-                  "with": "configs/noMeters/app/app-routing.module.ts"
+                  "with": "src/app/app-routing.module.noMeters.ts"
                 },
                 {
-                  "replace": "src/components/nav-menu/nav-menu.component.html",
-                  "with": "configs/noMeters/components/nav-menu/nav-menu.component.html"
+                  "replace": "src/app/nav/components/nav-menu/nav-menu.component.html",
+                  "with": "src/app/nav/components/nav-menu/nav-menu.component.noMeters.html"
+                },
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.prod.ts"
+                }
+              ],
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "extractCss": true,
+              "namedChunks": true,
+              "aot": true,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": true,
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "2mb",
+                  "maximumError": "5mb"
                 }
               ]
             },
             "noMetersPower": {
               "fileReplacements": [
                 {
-                  "replace": "src/components/meters/meters-routing.module.ts",
-                  "with": "configs/noMetersPower/components/meters/meters-routing.module.ts"
+                  "replace": "src/app/meters/meters-routing.module.ts",
+                  "with": "src/app/meters/meters-routing.module.noMetersPower.ts"
                 },
                 {
-                  "replace": "src/components/meters/meters.component.html",
-                  "with": "configs/noMetersPower/components/meters/meters.component.html"
+                  "replace": "src/app/meters/components/meters/meters.component.html",
+                  "with": "src/app/meters/components/meters/meters.component.noMetersPower.html"
+                },
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.prod.ts"
+                }
+              ],
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "extractCss": true,
+              "namedChunks": false,
+              "aot": true,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": true,
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "2mb",
+                  "maximumError": "5mb"
                 }
               ]
             },

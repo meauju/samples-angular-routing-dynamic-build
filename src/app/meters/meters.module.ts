@@ -1,6 +1,6 @@
 import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
-import {MetersComponent} from './meters.component';
+import {MetersComponent} from 'src/app/meters/components/meters/meters.component';
 import {MetersRoutingModule} from './meters-routing.module';
 
 @NgModule({

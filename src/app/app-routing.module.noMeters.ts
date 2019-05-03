@@ -1,23 +1,16 @@
 import {NgModule} from '@angular/core';
 import {Routes, RouterModule} from '@angular/router';
-import {NavMenuComponent} from '../components/nav-menu/nav-menu.component';
+import {NavMenuComponent} from './nav/components/nav-menu/nav-menu.component';
 
 
 const routes: Routes = [
     {
-        path: '',
-        outlet: 'navmenu',
-        component: NavMenuComponent
-    },
-    {
         path: 'home',
-        loadChildren: '../components/home/home.module#HomeModule'
-        // component: HomeComponent
+        loadChildren: './home/home.module#HomeModule'
     },
     {
         path: 'settings',
-        loadChildren: '../components/settings/settings.module#SettingsModule'
-        // component: SettingsComponent
+        loadChildren: './settings/settings.module#SettingsModule'
     },
     {
         path: '',
