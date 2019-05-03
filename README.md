@@ -30,7 +30,7 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 Run `ng build --configuration=noMeters` to build the project without the 'Meters' Web pages. The build artifacts will be stored in the `dist/` directory. No '--prod' flag available yet for this specific production build.
 
 ### Excluding Meters/Power Web page
-Run `ng build --configuration=noMeters` to build the project without the 'Power' Web page basically accessible through the 'Meters Web page. The build artifacts will be stored in the `dist/` directory. No '--prod' flag available yet for this specific production build.
+Run `ng build --configuration=noMetersPower` to build the project without the 'Power' Web page basically accessible through the 'Meters Web page. The build artifacts will be stored in the `dist/` directory. No '--prod' flag available yet for this specific production build.
 
 ### Excluding Meters/Power Web page
 
